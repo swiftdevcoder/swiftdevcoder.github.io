@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "KIM DONG-CHEOL"
-  avatar           : "/assets/images/bigdataseek.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "KOREA"
   email            :
