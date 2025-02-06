@@ -42,3 +42,30 @@ bundle exec jekyll serve
 ```
 
 이렇게 하면 ffi 관련 오류를 포함한 대부분의 호환성 문제가 해결될 것입니다. Ruby 3.x 버전은 더 나은 성능과 최신 보안 업데이트를 제공합니다.
+
+
+---
+**추가 에러발생**
+  * [!] There was an error parsing `Gemfile`: You cannot specify the same gem twice coming from different sources.
+
+--- 
+
+1. Add the following to your `Gemfile`:
+
+   ```ruby
+   gem "minimal-mistakes-jekyll"
+   ```
+
+2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
+
+   ```bash
+   bundle
+   ```
+
+3. Set the `theme` in your project's Jekyll `_config.yml` file:
+
+   ```yaml
+   theme: minimal-mistakes-jekyll
+   ```
+
+To update the theme run `bundle update`.
