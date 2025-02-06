@@ -1,7 +1,7 @@
 **에러발생**
   * Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi --version 1.15.5
 
-
+---
 Ruby 2.6.10 버전은 꽤 오래된 버전이며, minimal-mistakes와 최신 gem들과 호환성 문제가 있을 수 있습니다. 최신 버전의 Ruby로 업그레이드하는 것을 추천드립니다.
 
 MacOS에서 Ruby 업그레이드 방법:
