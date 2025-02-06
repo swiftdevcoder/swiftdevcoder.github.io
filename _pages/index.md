@@ -1,5 +1,5 @@
 ---
-title: "Splash Page"
+title: "Big Data Seek"
 layout: splash
 permalink: /
 header:
@@ -12,7 +12,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Data is Useful'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
