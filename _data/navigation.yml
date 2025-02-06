@@ -5,8 +5,9 @@ main:
   - title: "About"
     url: /about/
   - title: "Learnig Projects"
-    url: /year-archive/
+    url: /learning-project/
   - title: "My Projects"
-    url: /collection-archive/
+    url: /my-project/
+  
   # - title: "Sitemap"
   #   url: /sitemap/
