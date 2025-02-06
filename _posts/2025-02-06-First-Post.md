@@ -1,4 +1,4 @@
-- 에러발생-
+**에러발생**
   * Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi --version 1.15.5
 
 
