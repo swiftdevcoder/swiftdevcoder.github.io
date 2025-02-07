@@ -19,7 +19,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    url: "/learning-project/visual/"
     btn_label: "Read More"
     btn_class: "btn--primary"
     image_html: '<img src="/assets/images/unsplash-gallery-image-3-th.jpg" alt="placeholder image 1" style="width: 100px; height: auto;">'
