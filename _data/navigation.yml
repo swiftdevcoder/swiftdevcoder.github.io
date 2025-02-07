@@ -10,6 +10,7 @@ main:
     url: /my-project/
   - title: "Categories & Tags"
     url: /categories/
+
   
   # - title: "Sitemap"
   #   url: /sitemap/
