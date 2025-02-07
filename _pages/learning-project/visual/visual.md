@@ -1,6 +1,7 @@
 ---
 title: 시각화
 layout: single
+classes: wide
 permalink: /learning-project/visual/
 ---
 ```python
