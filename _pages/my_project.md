@@ -5,7 +5,7 @@ permalink: /my-project/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/ai_splash.jpg
+  overlay_image: /assets/images/unsplash-image-1.jpg
   actions:
     - label: "Learn More"
       url: "/terms/"

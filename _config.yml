@@ -289,7 +289,7 @@ category_archive:
   path: /categories/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /categories/ #원래 /tags/인데, categories와 통합하여 보여주기 위해 수정
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
