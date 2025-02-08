@@ -10,13 +10,15 @@ Minimal Mistakes 테마를 사용하여 블로그를 운영시 VS Code와 연동
 ---
 ### 1. Git 계정 생성 및 관련 소스 Fork하기
 1. **Git 계정 생성하기**
-    https://github.com 에서 SingUp하기 (개발자 전용 Gmail사용하기)
+    <https://github.com> 에서 SingUp하기 (개발자 전용 Gmail사용하기)
+    
 
 2. **관련 블로그 테마 Fork하기**
     - minimal mistakes 테마
-    - 수정된 샘플 테마인 https://github.com/bigdataseek/bigdataseek.github.io로 이동
+    - 수정된 샘플 테마인 <https://github.com/bigdataseek/bigdataseek.github.io> 로 이동
     - 우상단의 Fork 클릭
     - repostory명 입력란에 본인 git의 username 입력하기(username이 marbledata면 marbledata로 입력)
+    - username.github.io의 Settings > Pages > branch를 none에서 main/master 변경 저장.
 
 3. **Git 설치**
    - [Git for Windows](https://git-scm.com/download/win)를 설치합니다.
@@ -70,6 +72,8 @@ Minimal Mistakes 테마를 사용하여 블로그를 운영시 VS Code와 연동
      bundle exec jekyll serve
      ```
    - 브라우저에서 `http://localhost:4000`로 블로그를 확인할 수 있습니다.
+   - 소스에 변경사항 있으면 개발 서버는 자동으로 refresh되므로 단순히 브라우저만 refresh
+   - _config.yml 수정시 Ctl + c로 강제종료 후, 재실행하고 브라우저 refresh
 
 3. **VS Code 터미널 설정**
    - VS Code 내장 터미널에서 Jekyll 명령어를 실행하려면 `bash` 쉘을 사용하는 것이 좋습니다.
@@ -86,21 +90,98 @@ Minimal Mistakes 테마를 사용하여 블로그를 운영시 VS Code와 연동
 ### 4. **테마 커스터마이징**
 Minimal Mistakes 테마는 `_config.yml`와 `_posts`, `_pages` 디렉토리를 수정하여 커스터마이징할 수 있습니다.
 
-- **로고/이미지 추가**
-  - `assets/images/`에 이미지를 추가한 뒤 `_config.yml`에서 참조합니다.
+1. **_config.yml**
+  - 로고 및 이미지는 `assets/images/`에 이미지를 추가한 뒤 `_config.yml`에서 참조
+  - 개인정보 관련 문구 수정
 
+2. **블로그 작성**
+  - _posts 폴더에 생성
+  - 파일 생성시 파일명은 년월일 작성 후 간단한 타이틀명 기재.이때 -(대쉬)사용
+    (2025-02-07-standard-blog.md)
+  - md 파일 최상단에 Front matter 기재(일종의 파일정보), ---(대쉬 세개로 시작, 종료)
+    
+    ```
+    ---    
+    title: 블로그 작성하기  
+    layout: single
+    classes: wide
+    categories:
+    - Data Analysis
+    tags:
+    - GenAI
+    ---
+    ```
+
+    - 블로그 작성에 필요한 2가지
+        - 글작성
+        ```
+            #
+            **
+            -
+            *
+            (```)백틱 셋으로 열고, 닫기는 코드 표시
+            >
+            (---)대쉬 셋은 문단을 나누는 경계선
+            <> 자동링크
+        ```
+
+        - 이미지 및 동영상 첨부
+
+            ```
+            <!-- 이미지를 삽입하려면 assets/images에 이미지를 넣고 이미지명을 이곳에 기재 -->
+            ![Unsplash image 10]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-image-10.jpg)
+            ```
+
+            ```
+            <!-- Youtube 동영상을 삽입하려면 id번호만 기재 -->
+            {% raw %}{% include video id="T6z-0dpXPvU" provider="youtube" %}{%endraw%}
+            ```
+
+3. **정적 페이지 작성**
+  - _pages폴더에 파일 생성
+  - 파일생성시 영문으로 단순하게 작성(about.md). 
+  - 파일명을  permalink로
+    (home 메인화면에서 클릭시 호출, _data폴더의 navigation.yml에서 정의)
+
+        ```
+        - title: "About Me"
+            url: /about/
+        ```
+
+    - md 파일 최상단에 Front matter 기재(일종의 파일정보),---(대쉬 세개로 시작, 종료)
+    ```
+    ---    
+    title: 
+    layout: single
+    permalink: /about/
+    ---
+    ```
 
 ---
 
 
 ### 5. **수정사항 Commit**
+  - git의 세가지 명령어(add, commit, push), vscode의 git bash에서
+  ```
+    git add .
+    git commit -m "변경사항 기재"
+    git push
+  ```
+  
+  - push 전에 공용 컴퓨터인 경우 (local로 환경설정), vscode의 git bash에서 
+  ```
+    git config --local user.name "본인 github의 username" 
+    git config --local user.email "본인 github에 등록시 이메일"
+  ```
 
+  - push 완료 후 github에서 변경사항을 자동으로 실제 웹 블로그에 적용(40초~ 1분정도 소요)
+  
 --- 
 
 
 ### 요약
 1. Ruby, Git, VS Code 설치.
-2. Minimal Mistakes 테마 설치 및 Jekyll 설정.
+2. Minimal Mistakes 테마 설치
 3. VS Code와 연동해 개발.
 4. GitHub Pages로 배포.
 

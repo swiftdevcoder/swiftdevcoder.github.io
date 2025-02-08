@@ -1,5 +1,5 @@
 ---
-title: "Categories & Tags"
+# title: "Categories & Tags"
 layout: categories
 permalink: /categories/
 ---

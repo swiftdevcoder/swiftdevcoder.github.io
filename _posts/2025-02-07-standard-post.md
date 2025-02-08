@@ -14,6 +14,8 @@ tags:
 
 ![Unsplash image 10]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-image-10.jpg)
 
+<!-- auto link: URL을 자동으로 링크로 만들려면 명시적으로 <https://google.com> 형식을 사용해야 -->
+<https://google.com>
 
 ---
 
