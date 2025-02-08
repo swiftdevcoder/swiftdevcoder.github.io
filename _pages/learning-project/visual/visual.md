@@ -3,6 +3,7 @@ title: 시각화
 layout: single
 classes: wide
 permalink: /learning-project/visual/
+
 ---
 ```python
 import pandas as pd

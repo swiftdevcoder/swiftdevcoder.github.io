@@ -1,5 +1,5 @@
 ---
-title: VScode에서 Minimal Mistakes 테마 블로그 컨트롤 하기
+title: VScode에서 Blog 수정하기
 layout: single
 classes: wide
 permalink: /vscode-blog-connect/
@@ -173,9 +173,17 @@ Minimal Mistakes 테마는 `_config.yml`와 `_posts`, `_pages` 디렉토리를 �
     git config --local user.name "본인 github의 username" 
     git config --local user.email "본인 github에 등록시 이메일"
   ```
+  - git push시 다음과 같은 에러 발생하는 경우
+    ```
+    error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400
+    ```
+    다음과 같이 처리
+    ```
+    git config http.postBuffer 10485760
+    ```
 
   - push 완료 후 github에서 변경사항을 자동으로 실제 웹 블로그에 적용(40초~ 1분정도 소요)
-  
+
 --- 
 
 
