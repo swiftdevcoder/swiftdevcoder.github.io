@@ -52,7 +52,16 @@ tags:
 - **고급 패턴 탐지**:
   - GenAI는 데이터에서 숨겨진 관계나 트렌드를 찾아내고, 이를 인간이 이해하기 쉬운 언어로 설명할 수 있습니다.
 
+
+
 ---
+<!-- <video width="640" height="360" controls>
+  <source src="data-analyst.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> -->
+<video width="480" height="320" controls="controls">
+  <source src="data-analyst.mp4" type="video/mp4">
+</video>
 
 ### 3. **모델링 및 머신러닝**
 머신러닝 모델을 설계하고 학습시키는 과정에서도 GenAI가 큰 역할을 할 수 있습니다.
