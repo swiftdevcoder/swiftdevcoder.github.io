@@ -22,7 +22,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_3_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_3_0.png)
     
 
 - bins 수 설정
@@ -35,7 +35,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_5_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_5_0.png)
     
 
 
@@ -49,7 +49,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_7_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_7_0.png)
     
 
 
@@ -64,7 +64,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_9_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_9_0.png)
     
 
 
@@ -94,7 +94,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_10_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_10_0.png)
     
 
 
@@ -110,7 +110,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_12_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_12_0.png)
     
 
 
@@ -124,7 +124,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_14_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_14_0.png)
     
 
 
@@ -147,7 +147,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_16_1.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_16_1.png)
     
 
 
@@ -196,7 +196,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_22_1.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_22_1.png)
     
 
 
@@ -239,7 +239,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_26_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_26_0.png)
     
 
 
@@ -265,7 +265,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_28_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_28_0.png)
     
 
 
@@ -279,7 +279,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_30_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_30_0.png)
     
 
 
@@ -295,7 +295,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_32_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_32_0.png)
     
 
 
@@ -310,7 +310,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_34_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_34_0.png)
     
 
 
@@ -334,7 +334,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_36_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_36_0.png)
     
 
 
@@ -351,7 +351,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_38_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_38_0.png)
     
 
 
@@ -366,7 +366,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_40_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_40_0.png)
     
 
 
@@ -383,7 +383,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_42_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_42_0.png)
     
 
 
@@ -406,7 +406,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_45_1.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_45_1.png)
     
 
 
@@ -425,7 +425,7 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_47_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_47_0.png)
     
 
 
@@ -443,6 +443,6 @@ plt.show()
 
 
     
-![png](/_pages/learning-project/visual/visual_files/visual_49_0.png)
+![png]({{site.url}}{{site.baseurl}}/assets/images/learning-project-visual-md-images/visual_49_0.png)
     
 
