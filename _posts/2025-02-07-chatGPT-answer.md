@@ -1,5 +1,5 @@
 ---
-title: 챗GPT의 답변
+title: 챗GPT를 활용한 데이터분석
 layout: single
 classes: wide
 ---
