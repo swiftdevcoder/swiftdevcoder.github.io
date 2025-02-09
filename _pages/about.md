@@ -1,11 +1,11 @@
 ---
-title: 
+title: Data Analyst / Data Scientist
 layout: single
 permalink: /about/
 ---
 
 # 홍길동 (Hong Gil Dong)
-## Data Analyst / Data Scientist
+
 
 ### 📞 연락처 정보
 - Email: example@email.com
