@@ -62,7 +62,7 @@ tags:
   Your browser does not support the video tag.
 </video> -->
 <video width="480" height="320" controls="controls">
-  <source src="data-analyst.mp4" type="video/mp4">
+  <source src="{{ site.url }}{{ site.baseurl }}/assets/videos/sample_video.mp4" type="video/mp4">
 </video>
 
 ### 3. **모델링 및 머신러닝**
