@@ -3,6 +3,7 @@ title:
 layout: single
 permalink: /about/
 ---
+
 # 홍길동 (Hong Gil Dong)
 ## Data Analyst / Data Scientist
 
