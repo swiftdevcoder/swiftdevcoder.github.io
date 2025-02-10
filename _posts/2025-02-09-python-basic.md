@@ -24,6 +24,10 @@ tags:
   - file i/o
 ---
 
+<!-- 이미지를 삽입하려면 assets/images에 이미지를 넣고 이미지명을 이곳에 기재 -->
+
+![Unsplash image 10]({{ site.url }}{{ site.baseurl }}/assets/images/python_basic_list_image.jpg)
+
 ## 1. 파이썬 소개 
 
 1.1. 컴퓨터와 프로그래밍:데이터를 처리
@@ -42,6 +46,7 @@ tags:
 
 1.4.1. 파이썬 설치 및 IDE 설치
 - 버전 확인: 
+
 ```python 
 python --version
 ```
@@ -74,6 +79,7 @@ python --version
 
 1.5.1. 첫번째 프로그램 작성 및 실행
 - 임의의 파일 생성 후 print('Hello World') 작성
+
 ```python 
 print("Hellow World")
 ```
@@ -241,6 +247,7 @@ print(numbers)
 ## 5. 리스트와 튜플
 5.1.1. 리스트 정의
 - 여러 데이터를 순서대로 저장
+
 ```python
 fruits = ["apple", "banana", "cherry"]
 print(fruits[1])  # 리스트의 두 번째 요소 출력 (banana)
@@ -249,12 +256,12 @@ print(fruits[1])  # 리스트의 두 번째 요소 출력 (banana)
 5.1.2. 리스트 접근(인덱싱)
 - []안에 인덱스를 지정하여 요소에 접근(0,-1)
 
-5.2.1. 리스트 요소 추가_ append(), insert(), extend()
+5.2.1. 리스트 요소 추가: append(), insert(), extend()
 - append(): 마지막에 요소 추가
 - insert(): 특정 인덱스에 요소 추가
 - extend(): 마지막에 여러 요소 추가
 
-5.2.2. 리스트 요소 삭제_ remove(), pop(), clear()
+5.2.2. 리스트 요소 삭제: remove(), pop(), clear()
 - remove(): 특정 요소 삭제
 - pop(): 특정 인덱스 요소 삭제, 디폴트는 last
 - clear(): 모든 요소 삭제
@@ -262,7 +269,7 @@ print(fruits[1])  # 리스트의 두 번째 요소 출력 (banana)
 5.2.3. 리스트 요소 수정
 - 특정 인덱스에 새로운 값 지정
 
-5.3. 리스트 메서드_ sort(), reverse()_ enumerate(), sorted()
+5.3. 리스트 메서드: sort(), reverse(), enumerate(), sorted()
 - sort() : 리스트 정렬
 - reverse(): 리스트 순서 뒤집기
 - enumerate() 내장함수: iterable 요소 순회,인덱스와 값을 튜플로 반환
@@ -276,6 +283,7 @@ print(fruits[1])  # 리스트의 두 번째 요소 출력 (banana)
 
 5.5. 리스트 컴프리헨션
 - for문을 이용한 리스트 생성을 간략화시킴
+
 ```python
 numbers = [1, 2, 3, 4, 5]
 doubled_numbers = [x * 2 for x in numbers]
@@ -283,6 +291,7 @@ print(doubled_numbers)  # 출력: [2, 4, 6, 8, 10]
 ```
 5.6. 튜플의 정의
 - 리스트와 동일.()사용, 쉽표(,) 사용, 요소 수정 불가
+
 ```python
 coordinates = (3, 7)
 print(coordinates[0])  # 튜플의 첫 번째 요소 출력 (3)
@@ -297,27 +306,29 @@ print(coordinates[0])  # 튜플의 첫 번째 요소 출력 (3)
 6.1.1. 딕셔너리 정의
 - 키-값 구조
 - 키로 값을 조회
+
 ```python 
 students = {'st01':'Alice', 'st02':'Bob'}
 print(students['st01'])
 ```
 
-6.1.2. 존재하지 않는 키 접근 위험_ get(), setdefault()
+6.1.2. 존재하지 않는 키 접근 위험: get(), setdefault()
 
 6.2.1. 딕셔너리 요소 추가
 - 새로운 키값을 이용해 추가
 
-6.2.2. 딕셔너리 요소 삭제_ pop(), popitem(), clear()
+6.2.2. 딕셔너리 요소 삭제: pop(), popitem(), clear()
 - pop() : 키를 명시해야
 - popitem() : 키를 명시하지 않음
 
-6.3. 딕셔너리 메서드_ keys(), values(), items()
+6.3. 딕셔너리 메서드: keys(), values(), items()
 - keys() : 모든 키 반환, 사용하려면 list로 형변환
 - values() : 모든 값 반환, 사용하렴ㄴ list로 형변환
 - items() : 딕셔너리의 모든 키-값 쌍을 튜플 형태로
 
 6.4. 딕셔너리 컴프리헨션
 - 간결하게 딕셔너리 생성
+
 ```python 
 squared_dict = {num: num**2 for num in numbers}
 ```
@@ -331,6 +342,7 @@ squared_dict = {num: num**2 for num in numbers}
 - 파이썬에서 특정작업을 수행하는 코드 블록
 - def 키워드. 함수 이름, 매개변수, 콜론(:)으로 구성
 - 들여쓴 코드 블록이 함수의 내용을 정의
+
 ```python
 def say_hello(name):
     print("Hello", name)
@@ -338,12 +350,14 @@ def say_hello(name):
 
 7.2. 함수 호출
 - 함수 이름과 괄호()를 사용, 필요시 인자 전달
+
 ```python
 say_hello("Alice")
 ```
 
 7.3. 반환값
 - return 문은 함수의 실행을 종료, 지정된 값을 호출자에게 반환
+
 ```python
 def add(a, b):
     return a + b
@@ -398,6 +412,7 @@ print_info(**temp_dict)
 
 7.6.1. 지역변수와 전역변수
 - 함수 내 변수는 지역변수, 함수 외부에 있는 변수는 전역변수
+
 ```python
 global_var = 10  # 전역변수(함수 외부에 존재)
 
@@ -425,6 +440,7 @@ print(local_var) # 지역변수 접근시 오류
 7.7.2. 람다함수
 - 함수에 이름을 부여하지 않고 함수의 기능만을 정의하는 방식
 - lambda 매개변수1, 매개변수2, ...: 표현식
+
 ```python
 # 숫자 두 개를 더하는 람다 함수
 add = lambda x, y: x + y
@@ -435,6 +451,7 @@ print(result)  # 출력: 8
 7.7.3. map(), zip(), filter() 내장함수
 - map(function, iterable):
     - 주어진 함수(function)를 반복 가능한 객체(iterable)의 각 요소에 적용하고, 그 결과를 새로운 반복 가능한 객체로 반환
+
     ```python
     numbers = [1, 2, 3, 4, 5]
 
@@ -444,6 +461,7 @@ print(result)  # 출력: 8
     ```
 - zip(iterables):
     - 여러 개의 반복 가능한 객체를 동시에 순회하면서, 각 객체의 같은 인덱스에 있는 요소들을 튜플로 묶어 새로운 반복 가능한 객체를 반환
+
     ```python
     # zip 함수 예시
     names = ['Alice', 'Bob', 'Charlie']
@@ -453,6 +471,7 @@ print(result)  # 출력: 8
     ```
 - filter(function, iterable):
     - 주어진 함수(function)가 True를 반환하는 iterable의 요소들만 추출하여 새로운 반복 가능한 객체로 반환
+
     ```python
     # filter 함수 예시
     even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
@@ -463,6 +482,7 @@ print(result)  # 출력: 8
 
 8.1. 파일 열기, 읽기/쓰기, 파일 닫기
 - open()함수 사용, 파일 경로, 모드, close()
+
 ```python
 def file_read():
     file = open("example.txt", "r")
@@ -473,6 +493,7 @@ def file_read():
 
 8.2. with문 사용
 - with 키워드는 컨텍스트 관리를 위한 기능을 제공.
+
 ```python
 def using_with_keyword():
     with open("example.txt", "r") as file:
@@ -492,6 +513,7 @@ def using_with_keyword():
 - 바이너리모드(b)에서 파일은 이진 데이터로 해석. 파일의 내용을 바이트(byte) 객체로 처리
 - 텍스트가 아닌 데이터를 다룰 때 사용(이미지, 음악 파일, 'rb')
 - pip install Pillow
+
 ```python
 import io
 from PIL import Image
@@ -511,10 +533,11 @@ def using_binary_mode():
     resized_image.save("resized_image.png")
 ```
 
-8.5. 파일 읽기 메서드_ read(), readline(), readlines()
+8.5. 파일 읽기 메서드: read(), readline(), readlines()
 - read() : 전체 내용을 문자열로 반환
 - readline() : 한 줄씩 문자열로 반환
 - readlines() : 모든 각 줄을 리스트로 반환
+
 ```python
 def only_read_file():
     with open("example.txt", "r") as file:
@@ -533,9 +556,10 @@ def only_readlines_file():
     print(lines)
 ```
 
-8.6. 파일 쓰기 메서드_ write(), writelines()
+8.6. 파일 쓰기 메서드: write(), writelines()
 - write() : 문자열을 파일에 작성
 - 한글 포함시 일반적으로 encoding='utf-8' 사용
+
 ```python
 def only_write_file():
     with open("output.txt", "w", encoding="utf8") as file:
@@ -544,6 +568,7 @@ def only_write_file():
 ```
 
 - writelines()_ 리스트를 파일에 작성
+
 ```python
 def only_writelines_file():
     with open("output.txt", "w") as file:
@@ -554,6 +579,7 @@ def only_writelines_file():
 8.7. json파일 읽고 쓰기
 
 - json파일을 load()하여 dict/list 객체 반환
+
 ```python
 import json
 def read_json_file():
@@ -564,6 +590,7 @@ def read_json_file():
 
 - json파일을 read()시 문자열 반환
 - json문자열을 loads()하여 dict/list 객체 반환
+
 ```python
 def read_json_file_as_dict():
     with open("sample.json", "r") as file:
@@ -573,6 +600,7 @@ def read_json_file_as_dict():
 ```
 
 - dumps( )사용시, dict객체를 json 포맷의 문자열로
+
 ```python
 def write_json_file_as_string():
     data = {"name": "John", "age": 30, "city": "New York"}
@@ -581,6 +609,7 @@ def write_json_file_as_string():
 ```
 
 - dump() 사용시, dict객체를 json 파일로
+
 ```python
 def write_json_file_as_dict():
     data = {"name": "John", "age": 30, "city": "New York"}
@@ -594,6 +623,7 @@ def write_json_file_as_dict():
 - 예외는 프로그램 실행 중에 발생하는 오류(ZeroDivisionError, TypeError 등)
 
 9.2.1. try ~ except 문
+
 ```python
 def sample_try_except():
     try:
@@ -603,6 +633,7 @@ def sample_try_except():
 ```
 
 9.2.2. try ~ except ~ else ~ finally 구조
+
 ```python
 def sample_try_except_else_finally():
     try:  - 예외 발생 예상 표현식
@@ -617,6 +648,7 @@ def sample_try_except_else_finally():
 
 9.2.3. raise 키워드
 - 의도적으로 예외 발생시킴
+
 ```python
 def divide(x, y):
     if y == 0:
@@ -640,6 +672,7 @@ def sample_raise():
 
 9.4. 표준 모듈
 - 예:math,random
+
 ```python
 import random
 
@@ -664,6 +697,7 @@ def sample_random_module():
 - 객체는 클래스의 인스턴스라고도 합니다.
 - 객체지향프로그래밍: 현실 세계의 사물이나 개념을 객체라는 단위로 단순화.
 - 클래스는 class 키워드를 사용
+
 ```python
 class Dog:  # class 키워드 사용
     def __init__(self, name, age):  # self는 첫번째 매개변수로 인스턴스(객체) 지칭
@@ -721,6 +755,7 @@ obj.my_method()  # Hello! 출력
 ```
 
 - 명시적으로 __init__ 메서드를 정의하지 않으면 파이썬은 기본 생성자를 제공
+
 ```python
 def __init__(self):
     pass
@@ -731,6 +766,7 @@ def __init__(self):
 - 클래스 메서드는 클래스 레벨에서 작동
 - 첫 번째 매개변수로 cls 를 사용하여 클래스 자신을 참조
 - 클래스를 통해 호출
+
 ```python
 class SampleClassMethod:
     count = 0  # 클래스 변수
@@ -752,6 +788,7 @@ print(SampleClassMethod.get_count())  # 2 출력
 10.5. 스태틱 메서드
 - 클래스에 속하지만 클래스나 인스턴스와는 무관하게 동작(util 함수용)
 - @staticmethod 데코레이터를 사용
+
 ```python
 class SampleStaticMethod:
     @staticmethod
@@ -789,6 +826,7 @@ student_alice.study()  # Alice는 열심히 공부합니다
 
 10.6.2. 메서드 오버라이딩
 - 부모 클래스에서 상속받은 메서드를 자식 클래스에서 재정의
+
 ```python
 class Animal:  # 부모 클래스 (동물)
     def __init__(self, name):
@@ -833,6 +871,7 @@ print(bird.wing_length())  #출력: 150
 10.7. 데이터클래스
 - 데이터를 저장하는 클래스를 정의시 코드를 간결하게 유지 및 관리
 - __init__, __repr__,__eq__ 등의 특수 메서드가 자동 생성
+
 ```python
 from dataclasses import dataclass
 
