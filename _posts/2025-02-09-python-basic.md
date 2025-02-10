@@ -1,3 +1,29 @@
+---
+title: 파이썬 기초 개념
+layout: single
+classes: wide
+categories:
+  - 파이썬 강좌
+tags:
+  - variable
+  - string
+  - integer
+  - bool
+  - list
+  - tuple
+  - set
+  - dict
+  - operator
+  - function
+  - conditional statement
+  - loop statement
+  - class
+  - exception
+  - module
+  - package
+  - file i/o
+---
+
 ## 1. 파이썬 소개 
 
 1.1. 컴퓨터와 프로그래밍:데이터를 처리
