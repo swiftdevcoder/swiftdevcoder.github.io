@@ -88,7 +88,7 @@ Minimal Mistakes 테마를 사용하여 블로그를 운영시 VS Code와 연동
 ---
 
 ### 4. **테마 커스터마이징**
-Minimal Mistakes 테마는 `_config.yml`와 `_posts`, `_pages` 디렉토리를 수정하여 커스터마이징할 수 있습니다.
+Minimal Mistakes 테마는 `_config.yml`,`navigation.yml`와 `_posts`, `_pages` 디렉토리를 수정하여 커스터마이징할 수 있습니다.
 
 1. **_config.yml**
   - 로고 및 이미지는 `assets/images/`에 이미지를 추가한 뒤 `_config.yml`에서 참조
