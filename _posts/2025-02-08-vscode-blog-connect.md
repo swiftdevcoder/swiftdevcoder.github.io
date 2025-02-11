@@ -139,6 +139,14 @@ Minimal Mistakes 테마는 `_config.yml`,`navigation.yml`와 `_posts`, `_pages` 
             {% raw %}{% include video id="T6z-0dpXPvU" provider="youtube" %}{%endraw%}
             ```
 
+            ```
+            <!-- 자체 동영상을 삽입하려면 -->
+            <video controls width="640" height="360">
+              <source src="{%raw%}{{ site.url }}{{ site.baseurl }}/assets/videos/sample_video.mp4" type="video/mp4{%endraw%}">
+              Your browser does not support the video tag.
+            </video>
+            ```
+
 3. **정적 페이지 작성**
   - _pages폴더에 파일 생성
   - 파일생성시 영문으로 단순하게 작성(about.md). 

@@ -24,9 +24,8 @@ tags:
   - file i/o
 ---
 
-<!-- 이미지를 삽입하려면 assets/images에 이미지를 넣고 이미지명을 이곳에 기재 -->
-
-![Unsplash image 10]({{ site.url }}{{ site.baseurl }}/assets/images/python_basic_list_image.jpg)
+<!-- pdf를 삽입하려면 assets/images에 이미지를 넣고 pdf명을 이곳에 기재 -->
+<iframe src="{{site.url}}{{site.baseurl}}/assets/images/python_basic_contents.pdf" width="100%" height="900"></iframe>
 
 ## 1. 파이썬 소개 
 
@@ -129,7 +128,8 @@ SyntaxError: '(' was never closed
 
 2.4.4. 예약어
 ```python
-help("keywords")
+import keyword
+print(keyword.kwlist)
 ```
 
 2.4.5. 수강생 정보 변수화
@@ -477,7 +477,15 @@ print(result)  # 출력: 8
     even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
     print(even_numbers)  # [2, 4]
     ```
-
+- sorted(iterable, key=None, reverse=False):
+    - 특정 조건(key)에 따라 정렬가능
+    ```python
+    # filter 함수 예시
+    words = ["apple", "banana", "cherry", "date"]
+    sorted_words = sorted(words, key=lambda word: len(word))
+    print(sorted_words)
+    ```
+    
 ## 8. 파일 입출력 
 
 8.1. 파일 열기, 읽기/쓰기, 파일 닫기
@@ -512,25 +520,15 @@ def using_with_keyword():
 - 파일을 열때 기본값은 텍스트모드(t, 예를 들어 ‘rt’)
 - 바이너리모드(b)에서 파일은 이진 데이터로 해석. 파일의 내용을 바이트(byte) 객체로 처리
 - 텍스트가 아닌 데이터를 다룰 때 사용(이미지, 음악 파일, 'rb')
-- pip install Pillow
 
 ```python
-import io
-from PIL import Image
+# 원본 파일을 읽고, 복사본 파일로 저장하기
+with open('original_image.png', 'rb') as src_file:  # 원본 파일을 바이너리 모드로 읽기
+    with open('copy_image.png', 'wb') as dest_file:  # 복사본 파일을 바이너리 모드로 쓰기
+        data = src_file.read()  # 원본 파일의 내용을 읽음
+        dest_file.write(data)   # 복사본 파일에 내용을 씀
 
-def using_binary_mode():
-    - 바이너리 모드로 이미지 파일 열기
-    with open("컴퓨터구조.png", "rb") as f:
-        image_data = f.read()
-
-    # 이미지 데이터를 PIL Image 객체로 변환
-    image = Image.open(io.BytesIO(image_data))
-
-    # 이미지 처리 (예: 크기 조정)
-    resized_image = image.resize((512, 256))
-
-    # 처리된 이미지 저장
-    resized_image.save("resized_image.png")
+print("파일 복사 완료!")
 ```
 
 8.5. 파일 읽기 메서드: read(), readline(), readlines()
@@ -687,7 +685,47 @@ def sample_random_module():
 - 패키지는 여러 모듈을 모아 놓은 폴더
 - 패키지 폴더에는 __init__.py 파일이 있어야
 - my_package 라는 폴더를 만들고 그 안에 module1.py,module2.py,__init__.py파일을 설정한다.
+```
+    my_package/
+        ├── __init__.py
+        ├── greeting.py
+        └── math_operations.py
+```
 
+```
+# greeting.py 생성
+
+def greet(name):
+    return f"안녕하세요, {name}님!"
+```
+
+```
+# math_operations.py 생성
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+```
+
+```
+# __init__.py (비어있어도 됨)
+```
+
+```
+# 패키지 사용
+# main.py에서 사용
+
+from my_package import greeting, math_operations
+
+# greeting 모듈의 함수 사용
+print(greeting.greet("이순신"))  # 출력: 안녕하세요, 이순신님!
+
+# math_operations 모듈의 함수 사용
+print("덧셈 결과:", math_operations.add(10, 5))       # 출력: 덧셈 결과: 15
+print("뺄셈 결과:", math_operations.subtract(10, 5))  # 출력: 뺄셈 결과: 5
+```
 
 ## 10. 클래스
 
