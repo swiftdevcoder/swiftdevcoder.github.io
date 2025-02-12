@@ -73,6 +73,10 @@ categories:
 - 중간에 일별 매출 추이를 라인 차트로 시각화
 - 하단에 제품별 매출 분포를 바 차트로 표시
 
+<!-- 이미지를 삽입하고 Size 조정시-->
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/sales_dashboard.jpg" alt="dawithgenai2" width="600" height="400">
+            
+
 이 분석을 통해 재고 관리 및 마케팅 전략 수립에 다음과 같은 제안을 할 수 있습니다:
 1. Headphones, Laptop 등 고매출 제품의 재고 관리 강화
 2. 일별 매출 변동성에 대응하는 탄력적인 재고 운영

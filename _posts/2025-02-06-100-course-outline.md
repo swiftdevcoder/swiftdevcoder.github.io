@@ -9,7 +9,7 @@ tags:
   - data analyst
 ---
 
-
+> 아래 이미지는 [냅킨 AI](https://app.napkin.ai)을 활용하여 제작 
 
 <!-- 이미지를 삽입하려면 assets/images에 이미지를 넣고 이미지명을 이곳에 기재 -->
 
@@ -17,4 +17,3 @@ tags:
 
 --- 
 
-* 상기이미지는 [냅킨 AI](https://app.napkin.ai)을 활용하여 제작 
