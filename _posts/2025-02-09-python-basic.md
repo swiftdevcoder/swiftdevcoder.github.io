@@ -1,5 +1,5 @@
 ---
-title: 파이썬 기초 개념
+title: 파이썬 기초
 layout: single
 classes: wide
 categories:
@@ -24,8 +24,17 @@ tags:
   - file i/o
 ---
 
+> 컴퓨터는 **"데이터를 논리적으로 처리"** 한다. --- 개발자의 관점
+
+
+
+## 파이썬 기초 목차
+
 <!-- pdf를 삽입하려면 assets/images에 이미지를 넣고 pdf명을 이곳에 기재 -->
 <iframe src="{{site.url}}{{site.baseurl}}/assets/images/python_basic_contents.pdf" width="100%" height="900"></iframe>
+
+<br>
+<br>
 
 ## 1. 파이썬 소개 
 
@@ -485,7 +494,7 @@ print(result)  # 출력: 8
     sorted_words = sorted(words, key=lambda word: len(word))
     print(sorted_words)
     ```
-    
+
 ## 8. 파일 입출력 
 
 8.1. 파일 열기, 읽기/쓰기, 파일 닫기
