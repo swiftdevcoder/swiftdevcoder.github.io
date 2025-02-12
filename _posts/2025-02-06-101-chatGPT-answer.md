@@ -1,12 +1,16 @@
 ---
-title: GenAI를 활용한 데이터분석
+title: 데이터분석에서 GenAI의 도움
 layout: single
 classes: wide
+last_modified_at: 2025-02-07T16:12:19-04:00
+---
+
+> "데이터분석시 genAI가 어떤 도움을 줄 수 있나요?" -- Deep Seek의 답변
+
 ---
 
 <!-- 이미지를 삽입하려면 assets/images에 이미지를 넣고 이미지명을 이곳에 기재 -->
-
-![gawithai2]({{ site.url }}{{ site.baseurl }}/assets/images/dawithgenai3.jpg)
+![dawithgenai3]({{ site.url }}{{ site.baseurl }}/assets/images/dawithgenai3.jpg)
 
 GenAI(Generative AI)가 데이터 분석에서 어떤 도움을 줄 수 있는지 구체적인 예시를 통해 설명드리겠습니다. GenAI는 데이터 분석의 여러 단계에서 분석가의 작업을 보조하거나 자동화하여 효율성을 높일 수 있습니다.
 

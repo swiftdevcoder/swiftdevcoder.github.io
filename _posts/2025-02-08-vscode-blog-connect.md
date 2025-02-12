@@ -135,6 +135,11 @@ Minimal Mistakes 테마는 `_config.yml`,`navigation.yml`와 `_posts`, `_pages` 
             ```
 
             ```
+            <!-- 이미지를 삽입하고 Size 조정시-->
+            <img src="{%raw%}{{ site.url }}{{ site.baseurl }}/assets/images/dawithgenai2.jpg{%endraw%}" alt="dawithgenai2" width="300">
+            ```
+
+            ```
             <!-- Youtube 동영상을 삽입하려면 id번호만 기재 -->
             {% raw %}{% include video id="T6z-0dpXPvU" provider="youtube" %}{%endraw%}
             ```
