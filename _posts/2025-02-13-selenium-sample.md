@@ -99,4 +99,38 @@ finally:
 2. **특정 요소 선택**: `find_element`,`find_elements`를 사용하여 원하는 정보만 추출.
 3. **실용성**: 실제 웹사이트에서 유용한 정보를 수집하는 방법 학습.
 
----
+## **4. By 역할**
+`By`의 역할은 **Selenium WebDriver에서 요소를 찾을 때 사용하는 선택자 전략(또는 위치 지정 방법)을 정의**하는 것입니다.
+
+
+### **1.`By`의 사용 예시**
+아래는 `By`를 사용하여 웹 요소를 찾는 예제입니다.
+
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+# WebDriver 초기화 (예: Chrome)
+driver = webdriver.Chrome()
+
+# 웹 페이지 열기
+driver.get("https://www.example.com")
+
+# ID로 요소 찾기
+element_by_id = driver.find_element(By.ID, "element-id")
+
+# 클래스 이름으로 요소 찾기
+element_by_class = driver.find_element(By.CLASS_NAME, "class-name")
+
+# CSS 선택자로 요소 찾기
+element_by_css = driver.find_element(By.CSS_SELECTOR, ".css-selector")
+
+# XPath로 요소 찾기
+element_by_xpath = driver.find_element(By.XPATH, "//div[@id='example']")
+
+# 링크 텍스트로 요소 찾기
+element_by_link_text = driver.find_element(By.LINK_TEXT, "Click Here")
+
+# 드라이버 종료
+driver.quit()
+```
