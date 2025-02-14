@@ -1,5 +1,5 @@
 ---
-title: 파이썬 기초
+title: 2차시:파이썬 기초
 layout: single
 classes: wide
 categories:

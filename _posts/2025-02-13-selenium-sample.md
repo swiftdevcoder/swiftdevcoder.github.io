@@ -1,5 +1,5 @@
 ---
-title: Selelium 사용하기
+title: 3차시 2:Selelium 사용하기
 layout: single
 classes: wide
 categories:
@@ -12,6 +12,8 @@ tags:
 
 
 ## **1. Selenium의 기본 개념**
+Selenium은 웹 브라우저를 자동화하여 동적 콘텐츠를 포함한 웹 페이지와 상호작용
+
 - **WebDriver**: 브라우저를 제어. selenium 4부터 자동으로 chrome을 설정(수동 다운로드 불필요)
 - **요소 선택**: `find_element`와 `find_elements`를 사용하여 HTML 요소를 찾는 방법.
 - **동작 수행**: 클릭, 입력, 스크롤 등의 기본 동작.

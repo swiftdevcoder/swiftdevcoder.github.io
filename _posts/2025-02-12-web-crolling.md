@@ -1,5 +1,5 @@
 ---
-title: 웹크롤링
+title: 3차시 1:웹 스크래핑
 layout: single
 classes: wide
 categories:
