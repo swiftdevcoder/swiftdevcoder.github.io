@@ -1,5 +1,5 @@
 ---
-title: Initialization
+title: 14.Initialization
 layout: single
 classes: wide
 category: 아이폰앱 개발

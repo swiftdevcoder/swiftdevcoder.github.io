@@ -1,5 +1,5 @@
 ---
-title: Advanced Operators
+title: 29.Advanced Operators
 layout: single
 classes: wide
 category: 아이폰앱 개발

@@ -1,5 +1,5 @@
 ---
-title: Automatic Reference Counting
+title: 26.Automatic Reference Counting
 layout: single
 classes: wide
 category: 아이폰앱 개발

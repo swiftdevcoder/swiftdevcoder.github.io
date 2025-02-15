@@ -1,5 +1,5 @@
 ---
-title: Opaque and Boxed Protocol Types
+title: 25.Opaque and Boxed Protocol Types
 layout: single
 classes: wide
 category: 아이폰앱 개발

@@ -1,5 +1,5 @@
 ---
-title: Inheritance
+title: 13.Inheritance
 layout: single
 classes: wide
 category: 아이폰앱 개발

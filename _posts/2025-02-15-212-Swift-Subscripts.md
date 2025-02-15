@@ -1,5 +1,5 @@
 ---
-title: Subscripts
+title: 12.Subscripts
 layout: single
 classes: wide
 category: 아이폰앱 개발

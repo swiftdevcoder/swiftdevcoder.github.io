@@ -1,5 +1,5 @@
 ---
-title: Methods
+title: 11.Methods
 layout: single
 classes: wide
 category: 아이폰앱 개발

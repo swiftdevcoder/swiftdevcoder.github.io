@@ -1,5 +1,5 @@
 ---
-title: Deinitialization
+title: 15.Deinitialization
 layout: single
 classes: wide
 category: 아이폰앱 개발

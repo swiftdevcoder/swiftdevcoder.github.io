@@ -1,5 +1,5 @@
 ---
-title: Type Casting
+title: 20.Type Casting
 layout: single
 classes: wide
 category: 아이폰앱 개발

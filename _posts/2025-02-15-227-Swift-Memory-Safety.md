@@ -1,5 +1,5 @@
 ---
-title: Memory Safety
+title: 27.Memory Safety
 layout: single
 classes: wide
 category: 아이폰앱 개발

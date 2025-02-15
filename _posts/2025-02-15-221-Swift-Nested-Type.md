@@ -1,5 +1,5 @@
 ---
-title: Nexted Type
+title: 21.Nexted Type
 layout: single
 classes: wide
 category: 아이폰앱 개발

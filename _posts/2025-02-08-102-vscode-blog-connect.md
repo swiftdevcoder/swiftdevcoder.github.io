@@ -1,5 +1,5 @@
 ---
-title: 1차시 5:VScode에서 Blog 수정하기
+title: VScode에서 Blog 수정하기
 layout: single
 classes: wide
 permalink: /vscode-blog-connect/
@@ -201,7 +201,22 @@ Minimal Mistakes 테마는 `_config.yml`,`navigation.yml`와 `_posts`, `_pages` 
 
 ---
 
-### 6. **test 폴더 엿보기**
+### 6. **GitHub CLI로 여러 계정 관리하기**
+  - 하나의 장비에서 여러 git 계정을 사용하는 경우, `git push`시 인증 오류 발생
+  - GitHub CLI 설치(맥/window)
+  ```
+    #인증 상태 확인
+    gh auth status
+
+    #현재 인증된 사용자 로그아웃
+    gh auth logout
+
+    #새 계정으로 로그인
+    gh auth login
+  ```
+
+
+### 7. **test 폴더 엿보기**
   - 다양한 post 예시 소스가 있음
 
 --- 

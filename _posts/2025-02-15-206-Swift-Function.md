@@ -1,5 +1,5 @@
 ---
-title: Function
+title: 06.Function
 layout: single
 classes: wide
 category: 아이폰앱 개발

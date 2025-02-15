@@ -1,5 +1,5 @@
 ---
-title: Collection Type
+title: 04.Collection Type
 layout: single
 classes: wide
 category: 아이폰앱 개발

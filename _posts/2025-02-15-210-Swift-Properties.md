@@ -1,5 +1,5 @@
 ---
-title: Properties
+title: 10.Properties
 layout: single
 classes: wide
 category: 아이폰앱 개발

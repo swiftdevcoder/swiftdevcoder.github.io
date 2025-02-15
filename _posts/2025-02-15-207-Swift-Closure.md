@@ -1,5 +1,5 @@
 ---
-title: Closure
+title: 07.Closure
 layout: single
 classes: wide
 category: 아이폰앱 개발

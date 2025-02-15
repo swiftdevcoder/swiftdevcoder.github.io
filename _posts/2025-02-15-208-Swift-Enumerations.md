@@ -1,5 +1,5 @@
 ---
-title: Enumerations
+title: 08.Enumerations
 layout: single
 classes: wide
 category: 아이폰앱 개발

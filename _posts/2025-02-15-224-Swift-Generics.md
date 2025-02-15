@@ -1,5 +1,5 @@
 ---
-title: Generics
+title: 24.Generics
 layout: single
 classes: wide
 category: 아이폰앱 개발
