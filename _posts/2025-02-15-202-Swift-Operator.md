@@ -7,8 +7,9 @@ tags:
     - swift
 ---
 
+![swift_basic](/assets/images/ios/swift_operators_02.jpg)
 
-## **목차**
+<!-- ## **목차**
 1. **Terminology (용어 설명)**
 2. **Assignment Operator (할당 연산자)**
 3. **Arithmetic Operators (산술 연산자)**
@@ -17,10 +18,9 @@ tags:
 6. **Ternary Conditional Operator (삼항 조건 연산자)**
 7. **Nil-Coalescing Operator (Nil 병합 연산자)**
 8. **Range Operators (범위 연산자)**
-9. **Logical Operators (논리 연산자)**
+9. **Logical Operators (논리 연산자)** -->
 
----
-
+<br> 
 ### **1. Terminology (용어 설명)**
 - **Operand (피연산자):**
   - 연산자가 작동하는 값.

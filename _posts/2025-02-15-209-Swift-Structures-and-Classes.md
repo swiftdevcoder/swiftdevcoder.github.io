@@ -7,6 +7,9 @@ tags:
     - swift
 ---
 
+![alt text](/assets/images/ios/swift_structures_classes_09.jpg)
+<br>
+
 ## **목차**
 1. **클래스와 구조체의 정의**
 2. **클래스와 구조체의 공통점**

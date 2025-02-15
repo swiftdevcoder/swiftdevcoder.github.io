@@ -7,6 +7,10 @@ tags:
     - swift
 ---
 
+![alt text](/assets/images/ios/swift_enumerations_08.jpg)
+
+<br>
+
 ## **목차**
 1. **Enumerations(열거형)란?**
 2. **열거형의 기본 사용법**

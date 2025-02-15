@@ -7,6 +7,7 @@ tags:
     - swift
 ---
 
+![alt text](/assets/images/ios/collection_type_04.jpg)
 
 ## **목차**
 1. **Mutability of Collections (컬렉션의 가변성)**

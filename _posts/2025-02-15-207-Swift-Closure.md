@@ -7,6 +7,10 @@ tags:
     - swift
 ---
 
+![alt text](/assets/images/ios/swift_closure_07.jpg)
+
+<br>
+
 ## **목차**
 1. **클로저란?**
 2. **클로저의 기본 구조**

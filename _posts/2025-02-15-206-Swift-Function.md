@@ -7,6 +7,10 @@ tags:
     - swift
 ---
 
+![alt text](/assets/images/ios/swift_function_06.jpg)
+
+<br>
+
 ## **목차**
 1. **Functions (함수)**
 2. **Parameters and Return Values (매개변수와 반환값)**

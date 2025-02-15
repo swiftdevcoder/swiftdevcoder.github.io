@@ -7,6 +7,11 @@ tags:
     - swift
 ---
 
+![alt text](/assets/images/ios/swift_properties_10.jpg)
+
+<br>
+
+
 ## **목차**
 1. **Stored Properties (저장 속성)**  
 2. **Computed Properties (계산 속성)**  
